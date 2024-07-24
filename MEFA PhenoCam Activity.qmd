@@ -132,7 +132,7 @@ View(GR_sites)
 **Challenge**: Can you subset the sitelist_table by a different primary vegetation type? How about by a different variable (table column)? Use the code cell below.
 
 ```{r}
-
+unique(sitelist_table$site_type)
 ```
 
 #### Create a Map of the PhenoCam Sites
